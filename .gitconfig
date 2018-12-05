@@ -1,0 +1,24 @@
+[user]
+	name = Michael
+	email = michaeljbarlow@gmail.com
+[github]
+	user = mbarlow
+[alias]
+	st = status
+	br = branch
+	ci = commit
+	co = checkout
+[color]
+	diff   = auto
+	status = auto
+	branch = auto
+	ui = auto
+[credential]
+        helper = cache --timeout=3600
+[url "https://github.com/"]
+    insteadOf = git://github.com/
+[push]
+	default = simple
+[core]
+	editor = /usr/bin/vim
+
